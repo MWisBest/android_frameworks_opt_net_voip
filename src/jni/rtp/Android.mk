@@ -55,7 +55,7 @@ LOCAL_C_INCLUDES += \
 
 LOCAL_CFLAGS += -fvisibility=hidden
 
-ifneq ($(DEBUG_FORCE_STRICT_ALIASING),yes)
+ifneq ($(DEBUG_FORCE_STRICT_ALIASING_EXP),yes)
 LOCAL_CFLAGS += -fno-strict-aliasing
 endif
 
